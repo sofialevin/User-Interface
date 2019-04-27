@@ -157,6 +157,7 @@ button {
 	padding: 1px 30px;
 	margin: auto;
 	display: block;
+	cursor: pointer;
 }
 
 @keyframes wiggle {
