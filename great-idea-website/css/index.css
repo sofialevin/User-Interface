@@ -96,8 +96,16 @@ h1, h2, h3, h4, h5 {
 	font-size: 15px;
 }
 
+@keyframes fonts {
+	from {color: silver}
+	to {color: white}
+  }
+
 .container header nav a:hover {
 	text-decoration: underline;
+	color: white;
+	animation-name: fonts;
+  	animation-duration: 0.5s;
 }
 
 main {
