@@ -65,14 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body {
-	background-color: black;
-}
-
 .container {
 	width: 1030px;
 	margin: auto;
-	background-color: white;
 	padding: 0 76px 0 76px;
 }
 
