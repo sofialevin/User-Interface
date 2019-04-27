@@ -72,11 +72,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .container header {
-	background-color: #0452a1;
+	background-color: white;
 	position: fixed;
 	top: 0;
 	z-index: 100;
-	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+	box-shadow: 0 5px 4px -2px rgba(0,0,0,0.25);
 }
 
 .container header nav {
