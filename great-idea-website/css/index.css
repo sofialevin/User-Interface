@@ -152,13 +152,21 @@ button {
 }
 
 .first-section {
-	border-bottom: 1.5px solid grey;
 	padding-top: 128px;
 	padding-bottom: 70px;
 }
 
+.upper-section {
+	border-top: 1.5px solid grey;
+}
+
+.bottom-section {
+	border-bottom: 1.5px solid grey;
+}
+
 footer {
 	margin-left: 76px;
+	margin-top: 40px;
 }
 footer p {
 	text-align: center;
