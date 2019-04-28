@@ -192,8 +192,7 @@ button {
 }
 
 footer {
-	margin-left: 76px;
-	margin-top: 40px;
+	margin: 40px 76px 0 76px;
 }
 footer p {
 	text-align: center;
