@@ -64,3 +64,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1030px;
+	margin: auto;
+	/* padding: 0 76px 0 76px; */
+}
+
+.container header {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	box-shadow: 0 5px 4px -2px rgba(0,0,0,0.25);
+}
+
+.container header nav {
+	display: inline-block;
+	vertical-align: top;
+	margin: 30px 0 30px 0;
+}
+
+.container header nav a:first-child {
+	margin-left: 76px;
+}
+
+.container header nav a {
+	margin: 0 30px;
+	color: silver;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+@keyframes fonts {
+	from {color: silver}
+	to {color: white}
+  }
+
+.container header nav a:hover {
+	text-decoration: underline;
+	color: white;
+	animation-name: fonts;
+  	animation-duration: 0.5s;
+}
+
+main {
+	width: 878px;
+	margin: auto;
+}
+
+.logo {
+	margin-right: 0;
+	margin-left: 60px;
+	margin-top: 20px;
+	padding-right: 76px;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+.innovation {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	margin-top: 55px;
+}
+
+section img {
+	display: inline-block;
+}
+
+.double {
+	max-width: 49%;
+	display: inline-block;
+	margin: 40px 0 40px 0;
+}
+
+.triple {
+	width: 33%;
+	display: inline-block;
+	margin: 40px 0 40px 0;
+}
+
+button {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+    letter-spacing: 1px;
+    background-color: white;
+    border-color: black;
+	padding: 1px 30px;
+	margin: auto;
+	display: block;
+	cursor: pointer;
+}
+
+@keyframes wiggle {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  button:hover {
+	animation: wiggle 0.5s; 
+  }
+
+.first-section {
+	padding-top: 128px;
+	padding-bottom: 70px;
+}
+
+.upper-section {
+	border-top: 1.5px solid grey;
+}
+
+.bottom-section {
+	border-bottom: 1.5px solid grey;
+}
+
+footer {
+	margin: 40px 76px 0 76px;
+}
+footer p {
+	text-align: center;
+	font-size: 13px;
+	padding: 55px 0 100px 0;
+	font-family: Roboto, sans-serif;
+}
+
+.first-section img {
+	margin-left: 56px;
+}
